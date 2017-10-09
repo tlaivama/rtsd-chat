@@ -7,7 +7,7 @@
         "url": "https://github.com/tlaivama/rtsd-chat"
     },
     "scripts": {
-        "start": "./startup.sh",
+        "start": "startup.sh",
         "postinstall": "cp node_modules/webrtc-adapter/out/adapter.js ."
     },
         "dependencies": {
