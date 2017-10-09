@@ -1,0 +1,16 @@
+{
+    "name": "rtsd-chat",
+    "version": "0.0.1",
+    "main": "chatserver.js",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/tlaivama/rtsd-chat"
+    },
+    "scripts": {
+        "postinstall": "cp node_modules/webrtc-adapter/out/adapter.js ."
+    },
+        "dependencies": {
+            "websocket": "*",
+            "webrtc-adapter": "^1.1"
+    }
+}
